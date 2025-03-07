@@ -4,11 +4,7 @@ Welcome to the Ultimate Solidity Smart Contract Course for Complete Beginners! M
 
 <div align="center">Watch the Course (Netflix Style) <br>And Keep Track of Your Progress Here👇</div>
 
-<p align="center">
-  <a href="https://academy.nazaweb.com/ultimate-solidity-smart-contract-course">
-    <img src="https://i.imgur.com/fOWj3T6.png" style="max-width:400px; width:100%;">
-  </a>
-</p>
+
 
 # What You Will Learn 🚀
 
