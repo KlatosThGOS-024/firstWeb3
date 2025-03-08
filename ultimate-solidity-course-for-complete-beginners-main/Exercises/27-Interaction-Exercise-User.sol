@@ -14,9 +14,14 @@ contract User {
 
     mapping(address => Player) public players;
 
-    function createUser(address userAddress, string memory username) external {
+    function createUser(address userAddress, string memory username)  external {
         require(players[userAddress].playerAddress == address(0), "User already exists");
 
-        // Create a new player here 👇
+        Player memory newPlayer = Player({
+            playerAddress:userAddress,
+            username:username,
+            score:0
+        });
+        players[userAddress] = newPlayer;
     }
 }
